@@ -1,2 +1,2 @@
 # Grafana-AiO
-Grafana OSS with all Pugins from Grafana Plugin Site for Docker
+Grafana OSS with all free Pugins from Grafana Plugin Site for Docker
