@@ -1,7 +1,7 @@
 FROM alpine:3.16.2
 MAINTAINER Steffen Kaster skaster@kaster-development.de
 
-ARG GRAFANA_VERSION=9.1.6-r0
+ARG GRAFANA_VERSION=9.2.3
 
 ### GRAFANA_VERSION=latest = nightly build
 ENV \

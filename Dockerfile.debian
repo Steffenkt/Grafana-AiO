@@ -1,7 +1,7 @@
 FROM debian:bullseye-slim
 MAINTAINER Steffen Kaster skaster@kaster-development.de
 
-ARG GRAFANA_VERSION=9.1.6
+ARG GRAFANA_VERSION=9.2.3
 ARG OS_ARCH=armhf
 ARG GRAFANA_DEB_URL=https://dl.grafana.com/oss/release/grafana_${GRAFANA_VERSION}_${OS_ARCH}.deb
 
