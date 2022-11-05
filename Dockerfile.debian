@@ -1,8 +1,8 @@
-FROM debian:stable-slim
+FROM debian:bullseye-slim
 MAINTAINER Steffen Kaster skaster@kaster-development.de
 
 ARG GRAFANA_VERSION=9.2.3
-ARG OS_ARCH=arm64
+ARG OS_ARCH=amd64
 ARG GRAFANA_DEB_URL=https://dl.grafana.com/oss/release/grafana_${GRAFANA_VERSION}_${OS_ARCH}.deb
 
 ### GRAFANA_VERSION=latest = nightly build
